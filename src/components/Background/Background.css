@@ -1,0 +1,16 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.6rem;
+    margin-inline: 1.6rem;
+    gap: 1.6rem;
+    text-align: center;
+    color: white;
+}
+
+.background__message {
+    font-size: 1.8rem;
+    font-weight: 700;
+}

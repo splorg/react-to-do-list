@@ -1,0 +1,70 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6rem;
+    margin-inline: 1rem;
+    width: clamp(30rem, 90%, 80rem);
+    padding: 1.6rem;
+    gap: 1rem;
+    border-radius: .8rem;
+    background-color: #1d3557;
+}
+
+.todo__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    max-width: 80%;
+}
+
+.todo__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.todo__date {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.todo-complete {
+    filter: opacity(0.5);
+}
+
+.todo__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.todo__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .375rem;
+    border: none;
+    background: none;
+}
+
+.todo__button:hover {
+    cursor: pointer;
+}
+
+.done-btn {
+    color: white;
+    transition: color 300ms;
+}
+
+.done-btn:hover {
+    color: lightgreen;
+}
+
+.delete-btn {
+    color: white;
+    transition: color 300ms;
+}
+
+.delete-btn:hover {
+    color: salmon;
+}
